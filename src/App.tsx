@@ -19,6 +19,7 @@ function App() {
           <Route path="/:username/:reponame" element={<Repo />}/>
       </Routes>
       {/*Footer*/}
+      
       <GlobalStyles />
     </BrowserRouter>
   )
