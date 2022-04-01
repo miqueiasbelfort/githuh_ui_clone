@@ -10,9 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-
-      <h1>GitHub UI Clone</h1>
-
+      
       <Routes>
           <Route path="/" element={<Profile />}/>
           <Route path="/:username" element={<Profile />}/>
