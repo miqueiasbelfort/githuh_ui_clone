@@ -1,9 +1,10 @@
 import React from "react"
 
-import { Container, Main, LeftSide, RightSide, Repos  } from "./style"
+import { Container, Main, LeftSide, RightSide, Repos, CalendarHeading  } from "./style"
 
 import ProfileData from "../../components/ProfileData"
 import RepoCard from "../../components/RepoCard"
+import RandomCaledar from "../../components/RandomCalendar"
 
 const Profile: React.FC = () => {
     return (
@@ -41,6 +42,12 @@ const Profile: React.FC = () => {
                             ))}
                         </div>
                     </Repos>
+
+                    <CalendarHeading>
+                        Random calendar (do not represent actual data)
+                    </CalendarHeading>
+
+                    <RandomCaledar />
                 </RightSide>
             </Main>
         </Container>
