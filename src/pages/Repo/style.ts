@@ -103,7 +103,6 @@ export const LinkButton = styled.a`
     > svg {
         fill: var(--primary);
         margin-right: 10px;
-        margin-top: -3px;
     }
 `
 
