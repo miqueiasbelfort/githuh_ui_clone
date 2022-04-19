@@ -14,7 +14,11 @@ export const GithubLogo = styled(FaGithub)`
     width: 32px;
     height: 32px;
     flex-shrink: 0; /* Com isso a logo não distorce com o tamnha da tela */
+    cursor: pointer;
 
+    &:hover {
+        opacity: .8;
+    }
 `
 export const SeachForm = styled.form`
     padding-left: 16px;
