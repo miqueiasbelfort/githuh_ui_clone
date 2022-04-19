@@ -14,7 +14,7 @@ interface Data {
     repos?: APIRepo[];
     error?: string;
 }
-
+ 
 const Profile: React.FC = () => {
 
     const {username = "miqueiasbelfort"} = useParams()

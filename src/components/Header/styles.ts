@@ -16,7 +16,7 @@ export const GithubLogo = styled(FaGithub)`
     flex-shrink: 0; /* Com isso a logo não distorce com o tamnha da tela */
 
 `
-export const SeachForm = styled.div`
+export const SeachForm = styled.form`
     padding-left: 16px;
     width: 100%;
 
